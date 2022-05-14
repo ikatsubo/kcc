@@ -3,3 +3,4 @@ kcc
 *.o
 a.out
 tmp*
+.vscode/

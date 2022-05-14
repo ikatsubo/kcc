@@ -8,4 +8,7 @@ test: kcc
 clean:
 	rm -f kcc *.o *~ tmp*
 
-.PHONY: test clean
+fmt:
+	clang-format -style=google -i kcc.c
+
+.PHONY: test clean fmt
